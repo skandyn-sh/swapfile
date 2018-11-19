@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "This script creates a swap file 1GB (path: /swapfile) and adds it to /etc/fstab"
+echo "This script creates and activates a 1GB swap file (path: / swapfile), and then adds it to / etc / fstab"
 echo "Please enter your sudo password "
 sudo dd if=/dev/zero of=/swapfile bs=1M count=1024
 sudo chmod 600 /swapfile
