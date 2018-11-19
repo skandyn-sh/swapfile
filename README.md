@@ -10,6 +10,12 @@ Clone or download
 
 git clone  https://github.com/skandyn-sh/swapfile.git  
 
+chmod +x swapfile.sh
+
+sh swapfile.sh
+
+Enjoy
+
 
 
 
