@@ -1,1 +1,1 @@
-# This is my script swapfile for Debian
+# This is my swapfile script for Debian
