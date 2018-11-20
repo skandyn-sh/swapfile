@@ -2,7 +2,7 @@
 
 This is my swapfile script for Debian
 
-This script creates and activates a swap file 1GB (path: /swapfile) and then adds it to /etc/fstab
+This script creates and activates a swap file (path: /swapfile) and then adds it to /etc/fstab
 
 Installation
 
