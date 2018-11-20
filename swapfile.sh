@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "This script creates and activates a swap file (path: /swapfile) and then adds it to /etc/fstab"
 echo
-echo "This script allows you to select the size of the 1 GB, 2 GB, 4 GB, 8 GB and 16 GB swap file"
+echo "This script allows you to choose the size of the swap file 1 GB, 2 GB, 4 GB, 8 GB and 16 GB"
 echo
 echo "Please enter the swap file size, e.g. 1,2,4,8,16 and hit 'Enter' to continue"
 read d
