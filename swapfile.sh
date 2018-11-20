@@ -9,8 +9,7 @@ case "$d" in
   "4") sudo dd if=/dev/zero of=/swapfile bs=1M count=4096 ;;
   "8") sudo dd if=/dev/zero of=/swapfile bs=1M count=8192 ;;
   "16") sudo dd if=/dev/zero of=/swapfile bs=1M count=16384 ;;
-esac
-  
+esac  
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile   
@@ -19,4 +18,4 @@ echo
 echo "We make sure it works"
 echo
 free -m
-exit 
+exit
