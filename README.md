@@ -13,5 +13,3 @@ Clone or download
 git clone  https://github.com/skandyn-sh/swapfile.git  
 
 sh swapfile.sh
-
-Enjoy
